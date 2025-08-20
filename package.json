@@ -1,6 +1,12 @@
 {
-    "name": "fullstack-step-by-step",
-    "workspaces": [
-        "apps/*"
-    ]
+  "name": "fullstack-step-by-step",
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "format": "prettier --ignore-unknown --write ."
+  },
+  "devDependencies": {
+    "prettier": "^3.6.2"
+  }
 }
