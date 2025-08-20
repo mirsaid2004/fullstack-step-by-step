@@ -1,0 +1,6 @@
+{
+    "name": "fullstack-step-by-step",
+    "workspaces": [
+        "apps/*"
+    ]
+}
