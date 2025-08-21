@@ -1,4 +1,18 @@
 {
   "name": "@cloudretail/api",
-  "type": "module"
+  "type": "module",
+  "scripts": {
+    "start": "tsx watch --clear-screen=false --env-file=.env src/api.ts",
+    "docker-compose-up": "docker-compose up",
+    "docker-compose-down": "docker-compose down",
+    "build": "tsc --outDir dist",
+    "lint": "eslint --fix ."
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.33.0",
+    "@types/node": "^24.3.0",
+    "tsx": "^4.20.4",
+    "typescript": "^5.9.2",
+    "typescript-eslint": "^8.40.0"
+  }
 }

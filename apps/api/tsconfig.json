@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true, // Allow default imports from modules with no default export
+    "lib": ["ES2015"],
+    "module": "ESNext", // Use ESNext module system
+    "moduleResolution": "node",
+    "skipLibCheck": true, // Skip type checking of declaration files
+    "strict": true,
+    "target": "es2015" // Set the target ECMAScript version
+  }
+}

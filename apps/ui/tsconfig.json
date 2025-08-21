@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true, // Allow default imports from modules with no default export
+    "lib": ["DOM"],
+    "module": "ESNext", // Use ESNext module system
+    "moduleResolution": "bundler",
+    "strict": true
+  }
+}
